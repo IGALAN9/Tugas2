@@ -5,20 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <label for="">Nilai Berapa?</label>
-    <input type="number" id="nilai"> 
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <label for="">Nilai Berapa?</label>
+                <input type="number" id="nilai"> 
+            
+                <br>
+            
+                <label for="">Nilai mu adalah :</label>
+                <input type="text" id="huruf">
+            
+                <br>
+            
+                <button onclick="Det()">Detect</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    
 
-    <br>
-
-    <label for="">Nilai mu adalah :</label>
-    <input type="text" id="huruf">
-
-    <br>
-
-    <button onclick="Det()">Detect</button>
-    <button>Clear</button>
 
     
 </body>
