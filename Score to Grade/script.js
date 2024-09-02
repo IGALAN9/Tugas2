@@ -15,5 +15,4 @@ const Det = () => {
         hur.value = ''
     }
 
-
 }
