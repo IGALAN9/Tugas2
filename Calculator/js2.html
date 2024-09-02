@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <input type="number" id="iNumAdd"/> +
+    <input type="number" id="iNumAdd2"/>
+    <button type="button"
+        onclick='add("oResAdd",document.getElementById("iNumAdd").value , document.getElementById("iNumAdd2").value)'>=</button>
+    <input type="number" id="oResAdd" readonly />
+
+    <br><br>
+
+    <input type="number" id="iNumSub"/> -
+    <input type="number" id="iNumSub2"/>
+    <button type="button"
+        onclick='sub("oResSub",document.getElementById("iNumSub").value , document.getElementById("iNumSub2").value)'>=</button>
+    <input type="number" id="oResSub" readonly/>
+
+    <br><br>
+
+    <input type="number" id="iNumTime"/> x
+    <input type="number" id="iNumTime2"/>
+    <button type="button"
+        onclick='time("oResTime",document.getElementById("iNumTime").value , document.getElementById("iNumTime2").value)'>=</button>
+    <input type="number" id="oResTime" readonly />
+
+    <br><br>
+
+    <input type="number" id="iNumDiv"/> /
+    <input type="number" id="iNumDiv2"/>
+    <button type="button"
+        onclick='dived("oResDiv",document.getElementById("iNumDiv").value , document.getElementById("iNumDiv2").value)'>=</button>
+    <input type="number" id="oResDiv" readonly />
+
+    <br><br>
+</body>
+</html>
